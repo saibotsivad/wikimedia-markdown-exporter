@@ -1,0 +1,20 @@
+{
+  "name": "wikimedia-markdown-export",
+  "version": "0.0.0",
+  "description": "Convert a WikiMedia export to MarkDown+metadata. A very rough draft.",
+  "main": "index.js",
+  "author": "saibotsivad",
+  "license": "VOL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobiaslabs/wikimedia-markdown-export.git"
+  },
+  "dependencies": {
+    "xml2js": "~0.4.4",
+    "to-markdown": "0.0.2",
+    "wiky.js": "0.0.1",
+    "request": "~2.38.0",
+    "htmlparser2": "~3.7.3",
+    "mkdirp": "~0.5.0"
+  }
+}
