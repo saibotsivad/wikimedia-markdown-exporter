@@ -1,6 +1,6 @@
 {
   "name": "wikimedia-markdown-export",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Convert a WikiMedia export to MarkDown+metadata. A very rough draft.",
   "main": "index.js",
   "author": "saibotsivad",
