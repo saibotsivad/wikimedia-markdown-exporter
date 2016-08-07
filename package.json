@@ -7,7 +7,7 @@
   "license": "VOL",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tobiaslabs/wikimedia-markdown-export.git"
+    "url": "https://github.com/saibotsivad/wikimedia-markdown-export.git"
   },
   "dependencies": {
     "xml2js": "~0.4.4",

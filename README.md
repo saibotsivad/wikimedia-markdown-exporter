@@ -15,7 +15,9 @@ the folder `node_modules/wikimedia-markdown-exporter`.
 
 Either way, once you are there run this command:
 
-	node wikimedia-markdown-export.js [text file of all pages to export] [site domain]
+```sh
+node wikimedia-markdown-export.js [text file of all pages to export] [site domain]
+```
 
 For example, go into your Wikimedia site and in the settings I think is a thing that lets
 you list all your pages. You'll probably need some regex to tidy it up, but I don't remember
@@ -23,24 +25,26 @@ it being very hard.
 
 Anyway, at the end you'll want a text file that looks like:
 
-	API
-	Advanced Setup
-	Aim
-	Belacqua
-	Bid
-	Bidding
-	Blue Sunlight
-	Brightling University
-	...
+```txt
+API
+Advanced Setup
+Aim
+Belacqua
+Bid
+Bidding
+Blue Sunlight
+Brightling University
+...
+```
 
 If you save that in the folder where the module is as `pages.txt`, and your website is `mysite.com`, you'd run:
 
-	node wikimedia-markdown-export.js pages.txt mysite.com
+```sh
+node wikimedia-markdown-export.js pages.txt mysite.com
+```
 
 The output would be in a child folder, `output`.
 
 ## license
 
-All code and documentation are released under the [VOL](http://veryopenlicense.com).
-
-<3
+[VOL](http://veryopenlicense.com)
