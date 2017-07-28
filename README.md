@@ -1,5 +1,7 @@
 # wikimedia-markdown-exporter
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/saibotsivad/wikimedia-markdown-exporter.svg)](https://greenkeeper.io/)
+
 Export a Wikimedia website to a bunch of Markdown files, for use in something like Jekyll or Noddity.
 
 As is the unfortunate nature of export-type modules, I haven't used this in a while.
